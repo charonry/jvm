@@ -6,8 +6,9 @@ package com.init.charon.classLoader.entity;
  * @Describe ：
  * @date : 23:15 2019/11/25
  */
-abstract class Animal {
+public abstract class Animal {
     public abstract void eat();
+
     public String toString(){
         return "这是"+this.getClass().getSimpleName();
     }
